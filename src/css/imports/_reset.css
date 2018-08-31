@@ -1,0 +1,32 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html {
+	background-color: #FFF;
+	color: #353F4F;
+	font-family: 'Circular Pro Book';
+	font-size: 16px;
+	overflow-y: scroll;
+	min-height: 100%;
+}
+
+body,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, ol, ul,
+form, fieldset, legend,
+table, th, td, caption,
+hr {
+    margin:  0;
+    padding: 0;
+}
+
+* {
+	&,
+	&:before,
+	&:after {
+			box-sizing: border-box;
+	}
+}

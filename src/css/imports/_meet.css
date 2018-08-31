@@ -1,0 +1,53 @@
+.sth-meet {
+  margin: 11rem auto;
+  display: flex;
+}
+
+.sth-meet__heading {
+  color: #ff3131;
+  font-family: "Circular Pro Book";
+  font-size: 2.5rem;
+  margin-bottom: 0.75em;
+  line-height: 1.6;
+}
+
+.sth-meet__aside {
+  margin-right: 2em;
+}
+
+.sth-meet__content {
+  flex: 0 0 737px;
+  text-align: left;
+}
+
+.sth-meet__name {
+  color: #333333;
+  font-size: 1.375rem;
+  margin-bottom: 1em;
+}
+
+.sth-meet__role {
+  color: #b3b3b3;
+  font-size: 1rem;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+.sth-meet__text {
+  font-size: 1.125rem;
+  color: #666666;
+  line-height: 1.6;
+  margin-bottom: 1.5em;
+}
+
+@media (--breakpoint-small) {
+  .sth-meet {
+    flex-direction: column;
+    margin: 5em auto;
+    padding: 0 2em;
+  }
+
+  .sth-meet__aside {
+    display: none;
+  }
+}

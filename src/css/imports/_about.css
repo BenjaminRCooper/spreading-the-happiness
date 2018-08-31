@@ -1,0 +1,98 @@
+.sth-about {
+  margin: 5rem auto 7em;
+  text-align: center;
+  max-width: 1135px;
+  width: 100%;
+}
+
+.sth-about__heading {
+  color: #ff3131;
+  font-family: "Circular Pro Book";
+  font-size: 2.5rem;
+  margin-bottom: 1.125em;
+  text-align: center;
+}
+
+.sth-about__sub-heading {
+  color: #353f4f;
+  font-family: "Circular Pro Book";
+  font-size: 1.5625rem;
+  margin: 0 auto 4.8em;
+  text-align: center;
+  line-height: 1.6;
+  max-width: 700px;
+}
+
+.sth-about__reasons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sth-about__reason {
+  flex: 0 0 33%;
+  text-align: center;
+  margin-bottom: 6.875em;
+  padding: 0 1em;
+}
+
+.sth-about__reason-image {
+  margin: 0 auto 1.5em;
+  display: block;
+}
+
+.sth-about__reason-heading {
+  color: #333333;
+  font-size: 1.5625rem;
+  margin: 1em 0;
+}
+
+.sth-about__reason-text {
+  color: #666666;
+  font-size: 1.125em;
+  line-height: 1.6em;
+}
+
+.sth-about__link {
+  color: #ff3131;
+  border: 2px solid #ff3131;
+  border-radius: 5px;
+  padding: 0.8em 3em;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  transition: all ease-in 0.25s;
+  display: inline-block;
+}
+
+.sth-about__link:hover {
+  background: #ff3131;
+  color: white;
+}
+
+@media (--breakpoint-small) {
+  .sth-about__heading,
+  .sth-about__sub-heading {
+    padding: 0 1em;
+  }
+
+  .sth-about__reasons {
+    flex-direction: column;
+    padding: 0 2em;
+  }
+
+  .sth-about__reason {
+    flex: 0 0 100%;
+  }
+
+  .sth-about__reason-text {
+    font-size: 1.1rem;
+  }
+
+  .sth-about__link {
+    font-size: 1.1rem;
+    display: block;
+    width: 90%;
+    margin: 0 1em;
+  }
+}

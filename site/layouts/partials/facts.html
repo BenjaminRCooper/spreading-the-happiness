@@ -1,0 +1,13 @@
+<div class="sth-facts-container">
+  <div class="sth-facts">
+    <h2 class="sth-facts__heading">{{.heading}}</h2>
+    <div class="sth-facts__reasons">
+      {{ range .reasons }}
+      <div class="sth-facts__reason">
+        <img class="sth-facts__reason-image" src={{.reasonImage}} />
+        <p class="sth-facts__reason-text">{{.reasonText}}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>

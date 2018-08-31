@@ -1,0 +1,141 @@
+backend:
+  name: git-gateway
+
+media_folder: "site/static/img" # Folder where user uploaded files should go
+public_folder: "img"
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "pages"
+    label: "Pages"
+    editor:
+      preview: false
+    files:
+      - file: "site/content/_index.md"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - {
+              label: "Header",
+              name: header,
+              widget: object,
+              fields:
+                [
+                  { label: "Title", name: "title", widget: string },
+                  { label: "Button", name: "button", widget: string },
+                  { label: "ButtonLink", name: "buttonLink", widget: string },
+                ],
+            }
+          - {
+              label: "About",
+              name: about,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "SubHeading", name: "subHeading", widget: string },
+                  {
+                    label: "Reasons",
+                    name: "reasons",
+                    widget: "list",
+                    fields:
+                      [
+                        {
+                          label: "Image",
+                          name: "reasonImage",
+                          widget: "image",
+                        },
+                        { label: "Heading", name: "heading", widget: "string" },
+                        { label: "Text", name: "text", widget: "text" },
+                      ],
+                  },
+                  { label: Button, name: button, widget: string },
+                  { label: ButtonLink, name: buttonLink, widget: string },
+                ],
+            }
+          - {
+              label: "Child Poverty",
+              name: poverty,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: Button, name: button, widget: string },
+                  { label: ButtonLink, name: buttonLink, widget: string },
+                ],
+            }
+          - {
+              label: "Meet Shonette",
+              name: meet,
+              widget: object,
+              fields:
+                [
+                  { label: "Image", name: "image", widget: "image",}
+                  { label: "Heading", name: "heading", widget: "string" },
+                  { label: "Name", name: "name", widget: "string" },
+                  { label: "Role", name: "role", widget: "string" },
+                  { label: "About 1", name: "about1", widget: "text" },
+                  { label: "About 2", name: "about2", widget: "text" },
+                ],
+            }
+          - {
+              label: "Facts",
+              name: "facts",
+              widget: "object",
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  {
+                    label: "Reasons",
+                    name: "reasons",
+                    widget: "list",
+                    fields:
+                      [
+                        {
+                          label: "Image",
+                          name: "reasonImage",
+                          widget: "image",
+                        },
+                        { label: "Text", name: "reasonText", widget: "text" },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Events",
+              name: "events",
+              widget: "object",
+              fields:
+                [
+                  { label: "Image", name: "image", widget: image },
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Date", name: "date", widget: string },
+                  { label: "Location", name: "location", widget: string },
+                  { label: "Text", name: "text", widget: text },
+                  { label: "ButtonLink", name: "buttonLink", widget: string },
+                ],
+            }
+          - {
+              label: "In The Press",
+              name: "inPress",
+              widget: "list",
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Text", name: "text", widget: text },
+                  { label: "Link To Story", name: "link", widget: string },
+                ],
+            }
+          - {
+              label: "Footer",
+              name: "footer",
+              widget: "object",
+              fields:
+                [
+                  { label: "Facebook", name: "facebook", widget: string },
+                  { label: "Twitter", name: "twitter", widget: string },
+                  { label: "Instagram", name: "instagram", widget: string },
+                  { label: "Snapchat", name: "snapchat", widget: string },
+                  { label: "Youtube", name: "youtube", widget: string },
+                  { label: "LinkedIn", name: "linkedin", widget: string },
+                ],
+            }
