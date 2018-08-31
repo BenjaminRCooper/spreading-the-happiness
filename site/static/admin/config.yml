@@ -69,7 +69,7 @@ collections: # A list of collections the CMS should be able to edit
               widget: object,
               fields:
                 [
-                  { label: "Image", name: "image", widget: "image",}
+                  { label: "Image", name: "image", widget: "image" },
                   { label: "Heading", name: "heading", widget: "string" },
                   { label: "Name", name: "name", widget: "string" },
                   { label: "Role", name: "role", widget: "string" },
