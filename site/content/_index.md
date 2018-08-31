@@ -22,7 +22,7 @@ about:
 poverty:
   heading: Currently there are 22% of children living in relative poverty in the UK
   button: View map of child poverty
-  buttonLink: "#"
+  buttonLink: "https://mss.carto.com/viz/064da52a-2edc-4b7b-a709-f3697a5928b0/public_map"
 meet:
   image: /img/shonette.jpg
   heading: Meet the founder behind Spreading the Happiness
