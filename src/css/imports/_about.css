@@ -70,6 +70,48 @@
   color: white;
 }
 
+.sth-about__link--disabled {
+  color: #ff3131;
+  border: 2px solid #ff3131;
+  border-radius: 5px;
+  padding: 0.8em 3em;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  transition: all ease-in 0.25s;
+  cursor: not-allowed;
+  position: relative;
+}
+
+.sth-about__link--disabled:hover::before {
+  content: "Coming Soon";
+  background-color: #ff3131;
+  text-transform: capitalize;
+  position: absolute;
+  top: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  border-radius: 3px;
+  padding: 0.5em;
+  width: 120px;
+  z-index: 100;
+  font-size: 0.9rem;
+}
+
+.sth-about__link--disabled:hover::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #ff3131;
+  position: absolute;
+  left: calc(50% - 0.5em);
+  top: -15px;
+}
+
 @media (--breakpoint-small) {
   .sth-about__heading,
   .sth-about__sub-heading {
