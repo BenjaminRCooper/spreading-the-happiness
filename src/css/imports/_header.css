@@ -49,38 +49,7 @@
 }
 
 .sth-nav__donate-link {
-  cursor: not-allowed;
-  pointer-events: none;
   text-decoration: none;
-}
-
-.sth-nav__element-donate:hover::before {
-  content: "Coming Soon";
-  color: #ff3131;
-  text-transform: capitalize;
-  position: absolute;
-  top: -45px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #fff;
-  border-radius: 3px;
-  padding: 0.5em;
-  width: 120px;
-  z-index: 100;
-  font-size: 0.9rem;
-  text-align: center;
-}
-
-.sth-nav__element-donate:hover::after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #fff;
-  position: absolute;
-  left: calc(50% - 0.5em);
-  top: -15px;
 }
 
 .sth-header-content {

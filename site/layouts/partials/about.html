@@ -2,13 +2,18 @@
   <h2 class="sth-about__heading">{{.heading}}</h2>
   <h3 class="sth-about__sub-heading">{{.subHeading}}</h3>
   <div class="sth-about__reasons">
-    {{ range .reasons }}
+    {{ range.reasons }}
     <div class="sth-about__reason">
-      <img class="sth-about__reason-image" src={{.reasonImage}} />
+      <img class="sth-about__reason-image" src="{{.reasonImage}}" />
       <h3 class="sth-about__reason-heading">{{.heading}}</h3>
       <h3 class="sth-about__reason-text">{{.text}}</h3>
     </div>
     {{ end }}
   </div>
-  <a class="sth-about__link--disabled" href={{.buttonLink}} target="_blank">{{.button}}</a>
+  <a
+    class="sth-about__link"
+    href="{{.buttonLink}}"
+    target="_blank"
+    >{{.button}}</a
+  >
 </div>

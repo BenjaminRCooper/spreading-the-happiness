@@ -1,13 +1,13 @@
 ---
 header:
   button: Donate
-  buttonLink: '#'
+  buttonLink: "https://www.wonderful.org/charity/spreadingthehappiness"
   title: >-
     The purpose of human life is to serve and to show compassion and the will to
     help others
 about:
   button: Donate to spread the happiness
-  buttonLink: '#'
+  buttonLink: "https://www.wonderful.org/charity/spreadingthehappiness"
   heading: About Our Charity
   reasons:
     - heading: The problem
@@ -30,7 +30,7 @@ about:
     living below the poverty line, through the provision of hampers.
 poverty:
   button: View map of child poverty
-  buttonLink: 'https://mss.carto.com/viz/064da52a-2edc-4b7b-a709-f3697a5928b0/public_map'
+  buttonLink: "https://mss.carto.com/viz/064da52a-2edc-4b7b-a709-f3697a5928b0/public_map"
   heading: Currently there are 30% of children living in relative poverty in the UK
 meet:
   about1: >-
@@ -51,7 +51,7 @@ meet:
   name: Shonettte Bason-Wood
   role: Happiness Speaker
 facts:
-  heading: 'Child poverty: the facts'
+  heading: "Child poverty: the facts"
   reasons:
     - reasonImage: /img/why-1.svg
       reasonText: >-
@@ -76,7 +76,7 @@ facts:
         Children born to teenage mothers have a 63% higher risk of living in
         poverty
 events:
-  buttonLink: '#'
+  buttonLink: "#"
   date: Saturday 13th April 2019
   heading: Peaky Blinders themed charity ball
   image: /img/peaky-blinders.png
@@ -89,7 +89,7 @@ events:
     course meal, band, comedy, dancing and of course some surprises.
 inPress:
   - heading: Spreading a little happiness
-    link: 'http://www.teessidecharity.org.uk/2018/08/spreading-little-happiness/'
+    link: "http://www.teessidecharity.org.uk/2018/08/spreading-little-happiness/"
     text: >-
       The Foundation recently donated £5,000 to fabulous charity Spreading The
       Happiness as they strive to keep schoolchildren and struggling families
@@ -102,11 +102,10 @@ inPress:
       self-expressed, fabulous teacher who loves playing, laughing and anything
       that raises an eyebrow.
 footer:
-  facebook: '#'
-  instagram: '#'
-  linkedin: '#'
-  snapchat: '#'
-  twitter: '#'
-  youtube: '#'
+  facebook: "#"
+  instagram: "#"
+  linkedin: "#"
+  snapchat: "#"
+  twitter: "#"
+  youtube: "#"
 ---
-
