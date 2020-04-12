@@ -7,7 +7,7 @@ header:
     help others
 about:
   button: Donate to spread the happiness
-  buttonLink: 'https://www.wonderful.org/charity/spreadingthehappiness'
+  buttonLink: 'https://www.givey.com/spreadingthehappiness'
   heading: About Our Charity
   reasons:
     - heading: The problem
